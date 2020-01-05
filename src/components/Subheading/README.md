@@ -54,6 +54,21 @@ Used for the title of any sub-sections in top-level page sections.
 <Subheading>Accounts</Subheading>
 ```
 
+### Subheading in a card
+
+Use to structure content in a card.
+
+```jsx
+<Card title="Online store dashboard">
+  <Card.Section>
+    <Subheading>Products</Subheading>
+  </Card.Section>
+  <Card.Section>
+    <Subheading>Orders</Subheading>
+  </Card.Section>
+</Card>
+```
+
 <!-- content-for: android -->
 
 ![Subheading in a card](/public_images/components/Subheading/android/default@2x.png)

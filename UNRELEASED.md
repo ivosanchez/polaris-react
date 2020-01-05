@@ -12,6 +12,8 @@
 
 ### Documentation
 
+- Updated `Subheading` documentation to be more consistent and accurate ([#2591](https://github.com/Shopify/polaris-react/pull/2591/))
+
 ### Development workflow
 
 ### Dependency upgrades
