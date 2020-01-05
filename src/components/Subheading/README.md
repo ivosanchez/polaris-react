@@ -24,7 +24,7 @@ keywords:
 # Subheading
 
 Subheadings are used for the title of any sub-sections in top-level page
-sections. Generally, sections of a card use subheadings for their titles
+sections. Generally, sections of a card use subheadings for their titles.
 
 ---
 
@@ -46,9 +46,9 @@ Subheadings should follow the content guidelines for [headings and subheadings](
 
 ## Examples
 
-### Subheading in a card
+### Typographic subheading
 
-Use to structure content in a card.
+Used for the title of any sub-sections in top-level page sections.
 
 ```jsx
 <Subheading>Accounts</Subheading>
