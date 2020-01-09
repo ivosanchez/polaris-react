@@ -13,18 +13,13 @@ keywords:
   - titles of sub-sections
   - subsection titles
   - titles of subsections
-  - card subheadings
-  - card section headings
-  - headings of card sections
-  - card section subheadings
   - android
   - ios
 ---
 
 # Subheading
 
-Subheadings are used for the title of any sub-sections in top-level page
-sections. Generally, sections of a card use subheadings for their titles.
+Subheadings are used for the title of any sub-sections in top-level page sections.
 
 ---
 
@@ -54,39 +49,17 @@ Used for the title of any sub-sections in top-level page sections.
 <Subheading>Accounts</Subheading>
 ```
 
-### Subheading in a card
-
-Use to structure content in a card.
-
-```jsx
-<Card title="Online store dashboard">
-  <Card.Section>
-    <Subheading>Products</Subheading>
-  </Card.Section>
-  <Card.Section>
-    <Subheading>Orders</Subheading>
-  </Card.Section>
-</Card>
-```
-
 <!-- content-for: android -->
 
-![Subheading in a card](/public_images/components/Subheading/android/default@2x.png)
+![typographic subheading](/public_images/components/Subheading/android/default@2x.png)
 
 <!-- /content-for -->
 
 <!-- content-for: ios -->
 
-![Subheading in a card](/public_images/components/Subheading/ios/default@2x.png)
+![typographic subheading](/public_images/components/Subheading/ios/default@2x.png)
 
 <!-- /content-for -->
-
----
-
-## Related components
-
-- To learn how a card is structured to group similar concepts and tasks together, [use the card component](https://polaris.shopify.com/components/structure/card)
-- To create a title for a card or top-level page section, [use the heading component](https://polaris.shopify.com/components/titles-and-text/heading)
 
 ---
 
