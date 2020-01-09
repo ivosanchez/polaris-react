@@ -97,11 +97,11 @@ $difference-between-touch-area-and-backdrop: control-height() -
     // Start - overrides than can be deleted during global theming rollout
     &:hover,
     &:active {
-      color: var(--p-text-subdued);
+      color: var(--p-text);
 
       // stylelint-disable-next-line selector-max-specificity
       .IconWrapper {
-        @include recolor-icon(var(--p-icon-subdued));
+        @include recolor-icon(var(--p-icon));
       }
     }
 
