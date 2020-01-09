@@ -13,7 +13,7 @@ $difference-between-touch-area-and-backdrop: control-height() -
   padding: 0 $menu-action-padding-x;
   min-height: control-height();
   text-decoration: none;
-  color: var(--p-text-subdued, color('ink', 'light'));
+  color: var(--p-text, color('ink', 'light'));
 
   // Start - Delete below me when rolling out global theming
   &:hover,
@@ -70,6 +70,7 @@ $difference-between-touch-area-and-backdrop: control-height() -
       background-color: transparent;
     }
 
+    // stylelint-disable-next-line selector-max-specificity
     &:focus:not(:active) {
       @include focus-ring;
     }
@@ -83,6 +84,7 @@ $difference-between-touch-area-and-backdrop: control-height() -
       cursor: default;
       pointer-events: none;
 
+      // stylelint-disable-next-line selector-max-specificity
       .IconWrapper {
         @include recolor-icon(var(--p-icon-disabled));
       }
@@ -97,6 +99,7 @@ $difference-between-touch-area-and-backdrop: control-height() -
     &:active {
       color: var(--p-text-subdued);
 
+      // stylelint-disable-next-line selector-max-specificity
       .IconWrapper {
         @include recolor-icon(var(--p-icon-subdued));
       }
@@ -104,6 +107,7 @@ $difference-between-touch-area-and-backdrop: control-height() -
 
     &:focus,
     &:active {
+      // stylelint-disable-next-line selector-max-specificity
       &::after {
         background: transparent;
       }
@@ -123,7 +127,7 @@ $difference-between-touch-area-and-backdrop: control-height() -
 
 .IconWrapper {
   @include recolor-icon(
-    var(--p-icon-subdued, color('ink', 'lighter')),
+    var(--p-icon, color('ink', 'lighter')),
     var(--p-override-transparent, color('white'))
   );
   display: inline-block;
