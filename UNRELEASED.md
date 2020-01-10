@@ -29,6 +29,8 @@
 
 ### Dependency upgrades
 
+- Updated `@shopify/polaris-icons` to v3.9.0 ([#2610](https://github.com/Shopify/polaris-react/pull/2610))
+
 ### Code quality
 
 - Converted `Layout` into a functional component ([#2538](https://github.com/Shopify/polaris-react/pull/2538))
