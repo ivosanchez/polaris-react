@@ -55,7 +55,7 @@ $range-thumb-shadow-focus: 0 0 0 rem(1px) color('indigo');
 }
 
 .Input {
-  --progress-lower: #{var(--p-interactive-action, color('indigo'))};
+  --progress-lower: #{var(--p-action-interactive, color('indigo'))};
   --progress-upper: #{var(--p-override-transparent, color('sky', 'dark'))};
   // create-react-app v2 leverages postcss-preset-env to transpile modern CSS
   // into something kinda supported by older browsers. Unfortunatly its
@@ -121,7 +121,7 @@ $range-thumb-shadow-focus: 0 0 0 rem(1px) color('indigo');
   }
 
   .error & {
-    --progress-lower: #{var(--p-critical-action, color('red'))};
+    --progress-lower: #{var(--p-action-critical, color('red'))};
 
     @include range-track-selectors {
       background-color: var(--p-override-none, color('red', 'light'));
@@ -150,7 +150,7 @@ $range-thumb-shadow-focus: 0 0 0 rem(1px) color('indigo');
   }
 
   &:focus {
-    --progress-lower: #{var(--p-interactive-action, color('indigo'))};
+    --progress-lower: #{var(--p-action-interactive, color('indigo'))};
 
     @include range-track-selectors {
       background-color: var(--p-neutral-action-border, color('sky', 'dark'));

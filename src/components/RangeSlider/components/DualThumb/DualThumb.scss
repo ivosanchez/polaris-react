@@ -44,7 +44,7 @@ $range-thumb-shadow-focus: 0 0 0 rem(1px) color('indigo');
   border-radius: $range-thumb-size;
 
   --unselected-range: #{var(--p-override-transparent, color('sky', 'dark'))};
-  --selected-range: #{var(--p-interactive-action, color('indigo'))};
+  --selected-range: #{var(--p-action-interactive, color('indigo'))};
   --gradient-colors: var(--unselected-range, transparent) 0%,
     var(--unselected-range, transparent)
       var(--Polaris-RangeSlider-progress-lower),
@@ -56,7 +56,7 @@ $range-thumb-shadow-focus: 0 0 0 rem(1px) color('indigo');
   background-image: linear-gradient(to right, var(--gradient-colors));
 
   .error & {
-    --selected-range: #{var(--p-critical-action, color('red'))};
+    --selected-range: #{var(--p-action-critical, color('red'))};
     --gradient-colors: var(--unselected-range, transparent) 0%,
       var(--unselected-range, transparent)
         var(--Polaris-RangeSlider-progress-lower),
